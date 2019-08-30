@@ -1,7 +1,10 @@
 CC = gcc
 FILES = main.c \
 stack.c \
-functions.c
+functions.c \
+functions1.c \
+functions2.c \
+input_number.c
 NAME = checker
 LIB = -L $(LIBRARY_PATH)/standard -I $(LIBRARY_PATH)/standard -lstandard
 

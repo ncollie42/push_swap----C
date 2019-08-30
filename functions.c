@@ -1,15 +1,17 @@
 #include "header.h"
 
-void    sa(t_stack *A, t_stack *B)
+void    rra(t_stack *A, t_stack *B)
 {
-    swapTop(A); //void out B so it doesn't complain
+    rotateDown(A);
 }
-void    sb(t_stack *A, t_stack *B)
+
+void    rrb(t_stack *A, t_stack *B)
 {
-    swapTop(B);
+    rotateDown(B);
 }
-void    ss(t_stack *A, t_stack *B)
+
+void    rrr(t_stack *A, t_stack *B)
 {
-    swapTop(A);
-    swapTop(B);
+    rotateDown(A);
+    rotateDown(B);
 }
